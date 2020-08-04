@@ -27,7 +27,7 @@ class HelloController extends Controller
        return view('hello.index', ['msg'=>'フォームを入力：']);
    }
 
-
+//フォーム
    public function post(Request $request)
    {
        $validate_rule = [
